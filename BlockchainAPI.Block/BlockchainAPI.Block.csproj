@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <RootNamespace>BlockchainAPI.Block</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Implementations" />
+      <Folder Include="Interfaces" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MongoDB.Driver" Version="3.13.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BlockchainAPI.Transactions\BlockchainAPI.Transactions.csproj" />
+    </ItemGroup>
+
+</Project>

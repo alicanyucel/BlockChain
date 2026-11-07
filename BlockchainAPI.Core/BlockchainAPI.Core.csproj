@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <RootNamespace>BlockchainAPI</RootNamespace>
+        <UserSecretsId>625fdc8f-64dc-4713-ba90-9dca3e662aca</UserSecretsId>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="10.3.1" />
+      <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="10.3.1" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="10.3.1" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="10.3.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BlockchainAPI.Blockchain\BlockchainAPI.Blockchain.csproj" />
+      <ProjectReference Include="..\BlockchainAPI.Responses\BlockchainAPI.Responses.csproj" />
+    </ItemGroup>
+
+
+</Project>
