@@ -31,7 +31,4 @@ Swagger arayüzü, uygulama çalıştıktan sonra `/swagger` yolu üzerinden aç
 - `GET: IsValidChain` — Blockchain'in geçerli olup olmadığını kontrol eder.
 - `POST: MineBlock` — Yeni bir blok üretir ve belirli bir madenci adresi için işlem oluşturur. Bakiyeyi daha sonra kontrol edebilmek için adresi saklayın.
 
-## Bağlantılar
 
-- GitHub: https://github.com/kolosovpetro/Blockchain-Api
-- Swagger: https://blockchain-web-api.herokuapp.com/swagger
